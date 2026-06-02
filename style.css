@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-inline: 150px;
+}
+
+
+.container{
+    display: flex;
+    align-items: flex-end;
+    width: 350px;
+    height: 30vh;
+    margin: 30px;
+}
+
+.container2{
+    width: 350px;
+    height: 18vh;
+    margin: 30px;
+}
+
+.dati-anagrafici{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(146, 0, 0);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.dati-calcoli{
+    padding: 10px;
+    background-color: rgb(146, 0, 0);
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+
+@media screen and (min-width: 700 ){
+    .dati-calcoli{
+        max-width: 350px;
+    }
+}
+
+
+
+p{
+    margin-block: 10px;
+    margin-inline: 10px;
+}
+
+#white{
+    color: #fff;
+}
+
+.età{
+    margin-left: 10px;
+    width: 180px;
+    border-radius: 5px;
+}
+
+.name{
+    margin-left: 10px;
+    width: 180px;
+    border-radius: 5px;
+    border-color: rgb(146, 0, 0);
+}
+
+.surname{
+    margin-left: 10px;
+    width: 180px;
+    border-radius: 5px;
+    border-color: rgb(146, 0, 0);
+}
+
+.km{
+    margin-left: 10px;
+    width: 180px;
+    border-radius: 5px;
+}
+
+#calcolatore {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#calcolatore:hover {
+    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+#calcolatore:active {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: translateY(0); 
+}
+
+.nav-bar {
+    background-color: rgb(146, 0, 0);
+    width: 100%;
+    text-align: center;
+}
+
+.bi.bi-calendar-plus {
+    position: absolute;
+    right: 2%;
+    top: 1%;
+}
+
+.bi.bi-chevron-left {
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    margin-inline-end: 3px;
+}
+
+.bi.bi-chevron-right {
+    position: absolute;
+    top: 1%;
+    left: 6%;
+}
+
+ .bottom-bar {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(146, 0, 0);
+
+ }
