@@ -9,7 +9,7 @@ const Età = document.querySelector('.età');
 const Km = document.querySelector('.km');
 
 
-let button = document.querySelector('#calcolatore');
+let button = document.getElementById('calcolatore');
 button.addEventListener('click', () => {
     let prezzoFinale;
     let eta = Età.valueAsNumber;
